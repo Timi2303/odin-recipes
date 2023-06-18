@@ -1,15 +1,30 @@
 body {
     font-family: 'Times New Roman', Times, serif, Georgia, Times, 'Times New Roman', serif;
-    background-image: linear-gradient(to bottom, #01ef81, #ffffff);
+    background-color: cornsilk;
     font-weight: bolder;
   }
   
-  h1,h3 {
+  h1{
     color: #006699;
     font-size: 2em;
     font-weight: bold;
+    border: 1px solid gold;
+    border-radius: 5px;
+    text-align: center;
+    margin-bottom: 10px;
   }
+
+h3{
+  color: black;
+  font-weight: 800;
+  background-color: antiquewhite;
+
+}
   
+li{
+  list-style-type: square;
+}
+
   p {
     font-size: 1.2em;
     line-height: 1.5;
@@ -17,6 +32,11 @@ body {
   }
   
   a {
-    color: #006699;
+    color: #060d12;
     text-decoration: none;
+  }
+
+  a:hover{
+    color: aqua;
+    background-color: chartreuse;
   }
