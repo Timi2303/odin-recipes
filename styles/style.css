@@ -1,15 +1,17 @@
 body {
     font-family: 'Times New Roman', Times, serif, Georgia, Times, 'Times New Roman', serif;
-    background-color: cornsilk;
+    background-color: rgb(220, 205, 145);
     font-weight: bolder;
   }
   
   h1{
+    background-color: #060d12;
+    padding: auto;
     color: #006699;
     font-size: 2em;
     font-weight: bold;
-    border: 1px solid gold;
-    border-radius: 5px;
+    border: 3px solid gold;
+    border-radius: 10px;
     text-align: center;
     margin-bottom: 10px;
   }
@@ -17,8 +19,6 @@ body {
 h3{
   color: black;
   font-weight: 800;
-  background-color: antiquewhite;
-
 }
   
 li{
